@@ -59,6 +59,46 @@ git stash: Armazena temporariamente as alterações locais em um stash (esconder
 git remote -v: Lista todos os repositórios remotos configurados para o seu projeto.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|
+|                                                                      ----------- EXEMPLO DE PASSO A PASSO ---------
+|
+|
+|    mkdir: Cria um novo diretório (pasta).
+|    Exemplo: mkdir my_folder
+|
+|    cd: Navega para um diretório específico.
+|    Exemplo: cd my_folder
+|
+|    ls: Lista os arquivos e diretórios no diretório atual.
+|    Exemplo: ls
+|
+|    git init: Inicializa um novo repositório Git no diretório atual.
+|    Exemplo: git init
+|
+|    git remote add: Adiciona um repositório remoto ao seu projeto Git.
+|    Exemplo: git remote add origin <URL>
+|
+|    git clone: Clona um repositório remoto Git para o diretório local. Observação: Ao acessar um repositório que requer autenticação por token, você deve incluir o token no URL do repositório.
+|    Exemplo: git clone https://TOKEN@github.com/seu-usuario/seu-repositorio.git  
+|         *Dessa forma, ao utilizar o comando git clone, você deve substituir TOKEN pelo seu token de acesso ao repositório. Isso permitirá a autenticação correta durante o processo de clonagem.*
+|
+|    git status: Exibe o estado atual do repositório Git, mostrando os arquivos modificados, adicionados e não rastreados.
+|    Exemplo: git status
+|
+|    git add: Adiciona um arquivo específico ou todas as alterações ao índice do Git para serem commitadas.
+|    Exemplo: git add file.txt ou git add . (para adicionar todas as alterações)
+|
+|    git commit: Realiza um commit das mudanças adicionadas ao índice com uma mensagem que descreve o que foi feito.
+|    Exemplo: git commit -m "Mensagem do commit"
+|
+|    git push: Envia as alterações locais para o repositório remoto.
+|    Exemplo: git push origin master
+|
+|    git pull: Atualiza o seu repositório local com as alterações mais recentes do repositório remoto.
+|    Exemplo: git pull origin master
+|
+|          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Comandos básicos LINUX:
 
@@ -127,3 +167,5 @@ Comandos básicos LINUX:
 
  wget: Baixa arquivos da web.
  Exemplo: wget https://example.com/file.txt
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
