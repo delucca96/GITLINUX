@@ -62,7 +62,7 @@ git remote -v: Lista todos os repositórios remotos configurados para o seu proj
 
 Comandos básicos LINUX:
 
-   Comandos de listagem e navegação de diretórios:
+          Comandos de listagem e navegação de diretórios:
 
 
  ls: Lista os arquivos e diretórios no diretório atual.
@@ -75,7 +75,7 @@ Comandos básicos LINUX:
  Exemplo: pwd
   
 
-Comandos de criação e remoção de diretórios:
+          Comandos de criação e remoção de diretórios:
 
  mkdir: Cria um novo diretório.
  Exemplo: mkdir my_directory
@@ -87,7 +87,7 @@ Comandos de criação e remoção de diretórios:
  Exemplo: rmdir empty_directory
   
 
-Comandos de cópia e movimentação de arquivos:
+          Comandos de cópia e movimentação de arquivos:
 
  cp: Copia arquivos e diretórios.
  Exemplo: cp file.txt /path/to/destination
@@ -96,7 +96,7 @@ Comandos de cópia e movimentação de arquivos:
  Exemplo: mv file.txt new_location/file_new.txt
 
   
-Comandos de visualização de arquivos:
+          Comandos de visualização de arquivos:
 
  cat: Exibe o conteúdo de um arquivo.
  Exemplo: cat file.txt
@@ -105,7 +105,7 @@ Comandos de visualização de arquivos:
  Exemplo: grep "keyword" file.txt
 
   
-Comandos de permissões e privilégios:
+          Comandos de permissões e privilégios:
 
  chmod: Altera as permissões de um arquivo ou diretório.
  Exemplo: chmod +x script.sh
@@ -114,7 +114,7 @@ Comandos de permissões e privilégios:
  Exemplo: sudo apt-get update
   
 
-Comandos de gerenciamento de pacotes e servidores:
+          Comandos de gerenciamento de pacotes e servidores:
 
  apt-get: Gerenciador de pacotes do Ubuntu para instalar, atualizar ou remover programas.
  Exemplo: sudo apt-get install firefox
@@ -123,7 +123,7 @@ Comandos de gerenciamento de pacotes e servidores:
  Exemplo: ssh user@hostname
   
 
-Comandos de download de arquivos:
+          Comandos de download de arquivos:
 
  wget: Baixa arquivos da web.
  Exemplo: wget https://example.com/file.txt
