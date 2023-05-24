@@ -99,7 +99,7 @@ git remote -v: Lista todos os repositórios remotos configurados para o seu proj
         (Interessante usar primeiro o comando "git fetch" para enumerar as alterações, depois o "git diff origin/main" para ver exatamente o que será alterado aqui no arquivo local, para depois dar o "git pull")
 
      git branch: Cria uma nova branch
-     Exemplo: git branch testebranch
+     Exemplo: git branch testebranch (obs: se digitar somente "git branch", mostra as branchs existentes e a que está atualmente)
 
      git log --oneline --decorate: Mostra o onde está localizado o HEAD, útil no terminal para ver em qual branch está
      Exemplo: (HEAD -> main, origin/main, origin/HEAD, testebranch)
@@ -179,4 +179,4 @@ Comandos básicos LINUX:
  Exemplo: wget https://example.com/file.txt
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-linha faltante 1
+linha faltante 1.0
