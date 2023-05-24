@@ -107,6 +107,10 @@ git remote -v: Lista todos os repositórios remotos configurados para o seu proj
      git checkout: Muda para a branch
      Exemplo: git checkout testebranch (vai para a branch 'testebranch')
 
+     git merge: Mesclar os dois Branch's
+     Exemplo: entrar na branch main e fazer "git merge testebranch", que pega os arquivos da branch 'testebranch' e copia para 'main'. Depois só
+     dar um 'git add' nos arquivos, em seguida 'git commit -m "descrição"' e por fim 'git push'
+
           
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
