@@ -96,6 +96,7 @@ git remote -v: Lista todos os repositórios remotos configurados para o seu proj
 
     git pull: Atualiza o seu repositório local com as alterações mais recentes do repositório remoto.
     Exemplo: git pull origin master
+        (Interessante usar primeiro o comando "git fetch" para enumerar as alterações, depois o "git diff origin/main" para ver exatamente o que será alterado aqui no arquivo local, para depois dar o "git pull")
 
           
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
